@@ -1,0 +1,21 @@
+.top-bar, .top-bar ul {
+  background-color: #999;
+}
+
+.top-bar {
+    color: white;
+  }
+  .menu-text { color: white }
+  .menu a {
+    display: inline;
+    padding: 0;
+    margin-left: 10px;
+  }
+
+.body_text {
+  padding: 20px;
+}
+
+.active-link {
+  font-weight: bold;
+}
