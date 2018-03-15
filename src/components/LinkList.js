@@ -33,7 +33,7 @@ class LinkList extends Component {
 
         return (
             <div >
-                {allLinks.map(link => <SingleLink className="menu-text active-link" key={link.id} link={link} />)}
+                {allLinks.map(link => <SingleLink className="menu-text " key={link.id} link={link} />)}
             </div>
         );
     }
